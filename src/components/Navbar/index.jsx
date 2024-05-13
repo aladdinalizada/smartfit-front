@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.css";
 import Logo from "/logo.svg";
+import "./index.css";
 const Navbar = () => {
   return (
     <div className="container">
