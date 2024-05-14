@@ -2,6 +2,7 @@
   width: 100%;
   height: 68px;
   position: absolute;
+  /* position: sticky; */
   top: 8px;
   left: 0;
   display: flex;
@@ -18,7 +19,7 @@ ul {
   width: 100%;
   height: 100%;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 18px;
   display: flex;
   justify-content: space-between;
   align-items: center;

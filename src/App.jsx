@@ -1,12 +1,11 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
 import Footer from "./layout/footer";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <main className="main">
-      <Navbar />
-      <div id="div"></div>
+      <Hero />
       <Footer />
     </main>
   );
