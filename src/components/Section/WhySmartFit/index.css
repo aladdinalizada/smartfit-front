@@ -1,0 +1,92 @@
+.whyContainer {
+  width: 100%;
+  height: 100%;
+  padding: 0 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.whyContainer .top {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.whyContainer .top h2 {
+  color: var(--Color-Text-grey-800, #3d3d3d);
+  font-family: Lexend;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.whyContainer .top p {
+  width: 47%;
+  color: var(--Color-Text-grey-600, #646464);
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  max-width: 296px;
+  max-height: 248px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: calc(20px + 1.5vw);
+  align-items: center;
+  padding: 34px;
+  border-radius: 20px;
+  border: 1px solid var(--Color-Stroke-grey-50, #f2f2f2);
+  background: var(--Color-Background-white-50, #fefefe);
+  /* Drop Shadow */
+  box-shadow: 0px 10px 0px 0px #eaeaea;
+}
+
+.card h3 {
+  color: var(--Color-Text-grey-900, #2e2e2e);
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.card p {
+  color: var(--Color-Primary-Blue, #0793d8);
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+#card1 {
+  background: url("../../../assets/cards/1.svg");
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: center;
+}
+#card2 {
+  background: url("../../../assets/cards/2.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+#card3 {
+  background: url("../../../assets/cards/3.svg");
+  background-repeat: no-repeat;
+  background-size: 83%;
+  background-position: center;
+}
+#card4 {
+  background: url("../../../assets/cards/4.svg");
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: center;
+}

@@ -43,6 +43,10 @@
   font-weight: 700;
   text-align: center;
 }
+.tryitnowcontainer .content a:active {
+  opacity: 0.85;
+  color: white;
+}
 .tryitnowcontainer .content p {
   color: var(--Color-Primary-Blue, #0793d8);
   text-align: center;
