@@ -1,0 +1,11 @@
+.sectionContainer {
+  /* width: 744px;
+  height: 888px; */
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url(../../assets/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-attachment: local;
+}

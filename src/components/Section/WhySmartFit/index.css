@@ -7,6 +7,8 @@
   flex-direction: column;
   gap: 40px;
   margin-bottom: 140px;
+  position: relative;
+  z-index: 1;
 }
 .whyContainer .top {
   width: 100%;

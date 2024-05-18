@@ -3,4 +3,5 @@
   min-height: 100vh;
   background-color: #fbfbfb;
   text-decoration: none;
+  overflow: hidden;
 }
