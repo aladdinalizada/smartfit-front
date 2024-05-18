@@ -24,7 +24,7 @@
 /* first and third cards align items start */
 .simpleContainer .content .cardSecond,
 .cardFourth {
-  margin-top: 150px;
+  margin-top: 130px;
 }
 .simpleContainer .content span {
   color: var(--Color-Primary-Blue, #0793d8);

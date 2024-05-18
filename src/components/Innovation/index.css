@@ -1,0 +1,66 @@
+.innavtionContainer {
+  width: 100%;
+  height: 600px;
+  background: url(../../assets/bck.png) no-repeat center;
+  background-size: 100%;
+  background-attachment: fixed;
+  padding: 51px;
+  display: flex;
+  flex-direction: column;
+  animation: forwards 1s ease-in-out;
+}
+.innavtionContainer .title {
+  text-align: center;
+  color: var(--Color-Text-grey-50, #f1f1f1);
+  font-family: Lexend;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.innavtionContainer .innovationCards h4 {
+  color: var(--Color-Text-grey-50, #f1f1f1);
+  font-family: Lexend;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.innavtionContainer .innovationCards p {
+  color: var(--Color-Text-grey-50, #f1f1f1);
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.innavtionContainer .innovationCards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.innovationCard2 {
+  margin-top: 150px;
+}
+.innavtionContainer .innovationCards .innovationCard1,
+.innovationCard2 {
+  max-width: 624px;
+  width: 100%;
+  padding: 36px 12px 24px;
+  border-radius: 20px;
+  background: linear-gradient(
+    113deg,
+    rgba(239, 239, 239, 0.6) -30.55%,
+    rgba(239, 239, 239, 0.08) 105.74%
+  );
+  box-shadow: 0px 148px 41px 0px rgba(0, 0, 0, 0),
+    0px 95px 38px 0px rgba(0, 0, 0, 0.01), 0px 53px 32px 0px rgba(0, 0, 0, 0.05),
+    0px 24px 24px 0px rgba(0, 0, 0, 0.09), 0px 6px 13px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.5px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

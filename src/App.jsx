@@ -3,6 +3,7 @@ import Footer from "./layout/footer";
 import Hero from "./components/Hero";
 import TryItNow from "./components/TryItNow";
 import Props from "./components/Section";
+import Innovation from "./components/Innovation";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <TryItNow />
       <Props />
+      <Innovation />
       <Footer />
     </main>
   );
