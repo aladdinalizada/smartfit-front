@@ -5,6 +5,7 @@ import TryItNow from "./components/TryItNow";
 import Props from "./components/Section";
 import Innovation from "./components/Innovation";
 import TrustedPeople from "./components/TrustedPeople";
+import StartDemo from "./components/StartDemo";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Props />
       <Innovation />
       <TrustedPeople />
+      <StartDemo />
       <Footer />
     </main>
   );
