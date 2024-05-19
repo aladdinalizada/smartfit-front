@@ -1,18 +1,30 @@
 import React from "react";
 import "./index.css";
 import Star from "../../assets/star.svg";
+import { useEffect } from "react";
 const TrustedPeople = () => {
   // onClick event for cards
-  const handleClick = () => {
-    console.log("Card Clicked");
+  const handleClick = (e) => {
+    const cards = document.getElementsByClassName("trustedPeople");
+    cards[0].classList.add("transition");
+    // setTimeout(() => {
+    //   cards[0].classList.remove("transition");
+    // }, 3000);
+    // second click event to remove transition
+
+    setTimeout(() => {
+      if (cards[0].classList.contains("transition")) {
+        cards[0].classList.remove("transition");
+      }
+    }, 3000);
   };
   return (
     <div className="trustedContainer">
       <div className="title">
         <h2>Trusted by people</h2>
       </div>
-      <div className="trustedPeople" onClick={handleClick}>
-        <div className="cards card1">
+      <ul className="trustedPeople" onClick={(e) => handleClick(e)}>
+        <li className="cards card1">
           <div className="rating">
             <img src={Star} alt="star" />
             <img src={Star} alt="star" />
@@ -31,8 +43,8 @@ const TrustedPeople = () => {
             <hr />
             <p>Jane D</p>
           </div>
-        </div>
-        <div className="cards card2">
+        </li>
+        <li className="cards card2">
           <div className="rating">
             <img src={Star} alt="star" />
             <img src={Star} alt="star" />
@@ -51,8 +63,8 @@ const TrustedPeople = () => {
             <hr />
             <p>Jane D</p>
           </div>
-        </div>
-        <div className="cards card3">
+        </li>
+        <li className="cards card3">
           <div className="rating">
             <img src={Star} alt="star" />
             <img src={Star} alt="star" />
@@ -71,8 +83,8 @@ const TrustedPeople = () => {
             <hr />
             <p>Jane D</p>
           </div>
-        </div>
-        <div className="cards card4">
+        </li>
+        <li className="cards card4">
           <div className="rating">
             <img src={Star} alt="star" />
             <img src={Star} alt="star" />
@@ -91,8 +103,8 @@ const TrustedPeople = () => {
             <hr />
             <p>Jane D</p>
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   );
 };

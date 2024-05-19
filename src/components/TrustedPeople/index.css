@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
+  gap: 90px;
 }
 
 .trustedContainer .trustedPeople {
@@ -17,9 +18,9 @@
   cursor: pointer;
 }
 .trustedContainer .trustedPeople .cards {
-  /* position: absolute; */
+  position: absolute;
   top: 0;
-  left: 220px;
+  left: 40%;
   transition: all 0.4s cubic-bezier(0.63, 0.15, 0.03, 1.12);
   max-width: 296px;
   border-radius: 20px;
@@ -30,7 +31,6 @@
   display: flex;
   flex-direction: column;
   padding: 35px 50px 31px;
-  gap: 30px;
   height: 349px;
 }
 .trustedContainer .trustedPeople .cards .card1 {
@@ -52,6 +52,23 @@
   transform: rotateZ(2deg);
   transition-delay: 0.15s;
 }
+.trustedContainer .trustedPeople.transition .cards {
+  transform: rotateZ(0deg);
+}
+.trustedContainer .trustedPeople.transition .cards.card1 {
+  left: 13%;
+}
+.trustedContainer .trustedPeople.transition .cards.card2 {
+  left: 33%;
+}
+.trustedContainer .trustedPeople.transition .cards.card3 {
+  left: 53%;
+}
+.trustedContainer .trustedPeople.transition .cards.card4 {
+  left: 73%;
+}
+
+/* Card Items */
 .trustedContainer .trustedPeople .cards .rating {
   display: flex;
   gap: 6px;
