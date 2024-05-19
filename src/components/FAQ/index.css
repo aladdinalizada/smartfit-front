@@ -1,0 +1,48 @@
+.faqContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.faqContainer h2 {
+  color: var(--Color-Text-grey-700, #4e4e4e);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.faqContainer .accordion {
+  margin-bottom: 120px;
+  max-width: 840px;
+  width: 80%;
+  border-radius: 20px;
+  background: var(--Color-Primary-Blue-50, #e6f4fb);
+  padding: 20px;
+  color: var(--Color-Primary-Blue-600, #0686c5);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.faqContainer .accordion .accordion__item,
+.accordion__button {
+  border-radius: 20px;
+  background-color: var(--Color-Primary-Blue-50, #e6f4fb);
+}
+.faqContainer .accordion__panel {
+  padding: 10px 0;
+}
+.faqContainer .accordion .accordion__button {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+}
+.faqContainer .accordion .accordion__button[aria-expanded="true"] img {
+  transform: rotate(135deg);
+}
+.faqContainer .accordion .accordion__button img {
+  transition: transform 0.5s;
+}

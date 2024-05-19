@@ -6,6 +6,7 @@ import Props from "./components/Section";
 import Innovation from "./components/Innovation";
 import TrustedPeople from "./components/TrustedPeople";
 import StartDemo from "./components/StartDemo";
+import FAQ from "./components/FAQ";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Innovation />
       <TrustedPeople />
       <StartDemo />
+      <FAQ />
       <Footer />
     </main>
   );
